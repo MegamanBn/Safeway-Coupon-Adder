@@ -1,0 +1,2 @@
+Usage: Remove the TEMPLATE in the file name and this text.
+person@someEmail.com:person_password
