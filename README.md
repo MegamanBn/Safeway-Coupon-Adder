@@ -3,7 +3,8 @@
 Made with Python and the Selenium package.
 
 Uses FireFox, so you need geckodriver.exe in the same directory or somewhere in your PATH.
-Would probably work with other browser web drivers as well.
+
+Would probably work with other browser web drivers as well if you modified the script.
 
 Gets logins from an accounts.txt file in the same directory as the script.
 Records results in a csv within the CouponStats folder in the same directory as the script.
