@@ -1,6 +1,5 @@
 import csv
 import datetime
-from operator import attrgetter
 
 from selenium import webdriver
 from selenium.common.exceptions import ElementClickInterceptedException, ElementNotInteractableException, NoSuchElementException
@@ -32,7 +31,7 @@ COUPONS_URL = 'https://www.safeway.com/justforu/coupons-deals.html'
 account_file = open('./accounts.txt', 'r')
 account_list = []
 options = Options()
-options.headless = False
+options.headless = True
 
 browser = webdriver.Firefox(options=options)
 
